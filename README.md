@@ -64,6 +64,9 @@ This bot violates Roblox's Terms of Service (TOS). Using this bot can lead to ac
 5. Fill in the `.env` file with your configuration details:
     - `ROBLOX_API_KEY`
     - `ALERT_EMAIL`
+    - `EMAIL_PASSWORD`
+    - `SMTP_SERVER`
+    - `SMTP_PORT`
 
 ## Usage
 
@@ -73,7 +76,7 @@ This bot violates Roblox's Terms of Service (TOS). Using this bot can lead to ac
     ```sh
     python src/main.py
     ```
-
+    
 ## File Structure
 
 - `data/`: Contains historical data, logs, and model files.
