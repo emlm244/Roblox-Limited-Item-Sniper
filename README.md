@@ -9,21 +9,33 @@ This bot violates Roblox's Terms of Service (TOS). Using this bot can lead to ac
 ## Features
 
 ### **Authentication**
-- Securely authenticate with the Roblox API using environment variables.
+- **Secure Authentication**: Securely authenticate with the Roblox API using environment variables.
 
 ### **Historical Data Analysis**
 - **Fetch Historical Data**: Retrieve historical price data for target items.
 - **Technical Indicators**:
-  - Moving Averages
-  - Exponential Moving Averages (EMA)
-  - Relative Strength Index (RSI)
+  - **Moving Averages**: Calculate simple moving averages to identify price trends.
+  - **Exponential Moving Averages (EMA)**: Apply EMA for more responsive trend analysis.
+  - **Relative Strength Index (RSI)**: Measure the speed and change of price movements to identify overbought or oversold conditions.
 
 ### **Real-Time Data Monitoring**
-- Use WebSockets to receive real-time updates from the Roblox marketplace, minimizing delays.
+- **WebSocket Connection**: Use WebSockets to receive real-time updates from the Roblox marketplace, minimizing delays and ensuring timely sniping.
 
 ### **Main Monitoring and Decision Loop**
 - **Continuous Monitoring**: Continuously monitor the marketplace for new listings.
-- **Trend Analysis
+- **Trend Analysis**: Analyze each listing against historical trends and predefined rules using technical indicators.
+- **Automated Purchasing**: Automatically purchase items that are underpriced based on the algorithm.
+- **Human-like Interactions**: Implement random delays between actions to mimic human behavior and avoid detection.
+
+### **Error Handling and Logging**
+- **Robust Error Handling**: Manage API rate limits and other potential issues gracefully, ensuring the bot's stability.
+- **Comprehensive Logging**: Log all actions, including model training events and purchase attempts, for auditing and debugging purposes.
+- **Alerts**: Send notifications for significant events (e.g., successful snipes, errors) via email for real-time monitoring and response.
+
+### **Model Training and Updates**
+- **Machine Learning Model**: Train a Random Forest model to predict future prices of items based on historical data and technical indicators.
+- **Continuous Training**: Regularly update the model with new data to maintain accuracy.
+- **Hyperparameter Tuning**: Optimize the model using hyperparameter tuning for better predictions and performance.
 
 ## Installation
 
